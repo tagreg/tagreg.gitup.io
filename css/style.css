@@ -1,0 +1,126 @@
+h1{
+
+    font-family: with_my_woesregular;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 55px;
+    color: white;
+    width: 60%;
+    padding-left: 15px;
+}
+
+body{
+  display: flex;
+}
+.navbar{
+  font-family: mrs-eaves, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+body{
+    background: url(flowers.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: #074A37;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 18px;
+        padding-top: 40px;}
+
+    li{
+    position: relative;}
+   
+      li:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #074A37;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;}
+        
+        li:hover:before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+
+        footer{
+          width: 100%;
+          background-color: white;
+          position: absolute;
+          bottom:0;
+          color:#074A37;
+        
+}
+        footer p{
+         display: inline;
+         padding-right: 20px;
+          bottom:0;font-family: mrs-eaves, serif;
+        font-weight: 400;
+      font-style: normal;
+      float:right;}        
+
+        @font-face {
+          font-family: 'with_my_woesregular';
+          src: url('fonts/customfont/with_my_woes-webfont.woff2') format('woff2'),
+               url('fonts/customfont/with_my_woes-webfont.woff') format('woff');
+          font-weight: normal;
+          font-style: normal; }
+
+          @media only screen and (max-width: 700px) {
+            body{display: grid;
+            grid-template-rows: auto;}
+
+            h1{
+              display: grid;
+              text-align: center;
+              width: auto;
+              background-color: #768320;
+              padding:40px ;
+              margin:0;
+            }
+            li{
+               width: 100%;
+               text-align: center;
+               display: inline-block;
+              background-color: rgb(255, 255, 255);}
+
+          footer{
+            display: none;
+          }
+            }
+
+      .slogan{
+        float: left;
+        padding-left: 5px;
+        font-size: 18px;
+      }

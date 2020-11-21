@@ -1,0 +1,120 @@
+h1{
+    font-family: with_my_woesregular;
+    font-weight:normal;
+    font-style:normal;
+    text-align: center;
+    font-size: 60px;
+    color:#074A37;
+}
+
+@font-face {
+    font-family: 'with_my_woesregular';
+    src: url('fonts/customfont/with_my_woes-webfont.woff2') format('woff2'),
+         url('fonts/customfont/with_my_woes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+dt {
+    padding: 5px;
+    padding-bottom: 30px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align:center;
+    text-decoration: none;
+    list-style: none;
+    font-family: mrs-eaves, serif;
+    text-decoration: none;
+  }
+  
+  li{
+    position: relative;}
+   
+      li:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #074A37;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;}
+        
+        li:hover:before {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+        a:link {
+          color:#074A37 ;
+          text-decoration: none;
+        }
+        a:visited {
+          color:#074A37 ;
+          text-decoration: none;
+        }
+        footer{
+          
+          width: 100%;
+          background-color: white;
+          position: absolute;
+          bottom:0;
+          color:#074A37;
+          text-align: center;
+          font-family: mrs-eaves, serif;}
+      
+        footer p{
+         display: inline;
+         padding-right: 20px;
+          bottom:0;font-family: mrs-eaves, serif;
+        font-weight: 400;
+      font-style: normal; }
+
+      input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid  #3D58B8; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical 
+      }
+      
+      input[type=submit] {
+        background-color: #3D58B8;
+          color: white;
+          padding: 12px 20px;
+          float: right;
+          font-family:'with_my_woesregular' ;
+          font-weight: normal;
+          font-style: normal;
+          font-size: 18px;
+        }
+      
+      input[type=submit]:hover {
+        border: 4px #1a244e;
+        border-style: solid;
+      }
+      input[type=email], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid  #3D58B8; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical }
+      
+      .container{
+        padding: 20px;
+        font-family: mrs-eaves, serif;
+        font-size: 20px;
+      }
+
+      #page-container {
+        position: relative;
+        min-height: 80vh;
+      }
+    
